@@ -5,7 +5,7 @@ define(["require", "exports", "core/Entities", "core/Entity", "core/Sound", "uti
         constructor() {
             super(...arguments);
             this.type = Entities_1.EntityType.Frog;
-            this.magic = 10;
+            this.magic = 15;
             this.maxHealth = 2;
             this.resistances = [Entity_1.DamageType.Earth, Entity_1.DamageType.Water, Entity_1.DamageType.Physical];
             this.weaknesses = [Entity_1.DamageType.Fire, Entity_1.DamageType.Physical];
